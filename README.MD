@@ -1,10 +1,11 @@
 This repository includes the translation files for the TinyMCE 4 WYSIWYG text editor, published as a Github page. The translations were downloaded from here: https://www.tinymce.com/download/language-packages/  on 16/01/2018. The Finnish translation was missing and was downloaded from here instead: http://archive.tinymce.com/i18n/
 
-To use the translations, just place the correct url to the TinyMCE configuration. (Example for react-tinymce )
+To use the translations, just place the correct url to the TinyMCE configuration, you probably want to set a matching language as well.    (Example for [react-tinymce](https://github.com/instructure-react/react-tinymce) )
 
                         <TinyMCE
                             config={{
                                 language_url: 'https://olli-suutari.github.io/tinyMCE-4-translations/fi.jss',
+                                language: 'fi',
                             }}
                         />
 
@@ -14,27 +15,17 @@ Note: The TinyMCE offical Git repository can be found from here:
 
 https://github.com/tinymce/tinymce
 
-It is also possible to set the language url to a variable and change it as the user changes the language, note that the locale should be defined as well. Example code for react could look a bit like this:
-
-
-
+It is also possible to set the language url to a variable and change it as the user changes the language, note that the language should be defined as well. Example code for react could look a bit like this:
     
     import React, { Component } from 'react';
-    
     import PropTypes from 'prop-types';
-    
     import { connect } from 'react-redux';
-    
     // Reactstrap: https://reactstrap.github.io/
-    
     import { injectIntl, intlShape, FormattedMessage } from 'react-intl';
-    
     import { Button, Form, FormGroup, Label, Input, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-    
     import TinyMCE from 'react-tinymce';
-    
+ 
     export class Example extends Component {
-    
     
     constructor(props) {
         super(props);
