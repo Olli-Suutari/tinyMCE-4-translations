@@ -1,11 +1,11 @@
-This repository includes the translation files for the TinyMCE 4 WYSIWYG text editor, published as a Github page. The translations were downloaded from here: https://www.tinymce.com/download/language-packages/  on 16/01/2018.
+This repository includes the translation files for the TinyMCE 4 WYSIWYG text editor, published as a Github page. The translations were downloaded from here: https://www.tinymce.com/download/language-packages/  on 16/01/2018. The Finnish translation was missing and was downloaded from here instead: http://archive.tinymce.com/i18n/
 
 To use the translations, just place the correct url to the TinyMCE configuration. (Example for [react-tinymce](https://www.npmjs.com/package/react-tinymce) )
 
 ```
                     <TinyMCE
                         config={{
-                            language_url: 'https://olli-suutari.github.io/tinymce-fi-translation/fi.js',
+                            language_url: 'https://olli-suutari.github.io/tinyMCE-4-translations/fi.jss',
                         }}
                     />
 ```
