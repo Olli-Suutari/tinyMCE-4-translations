@@ -14,7 +14,7 @@ Note: The TinyMCE offical Git repository can be found from here:
 
 https://github.com/tinymce/tinymce
 
-It is also possible to set the language url to a variable and change it as the user changes the language, note that the locale should defined as well. Example code for react could look a bit like this:
+It is also possible to set the language url to a variable and change it as the user changes the language, note that the locale should be defined as well. Example code for react could look a bit like this:
 
 
 
