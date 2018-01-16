@@ -4,7 +4,7 @@ To use the translations, just place the correct url to the TinyMCE configuration
 
                         <TinyMCE
                             config={{
-                                language_url: 'https://olli-suutari.github.io/tinyMCE-4-translations/fi.jss',
+                                language_url: 'https://olli-suutari.github.io/tinyMCE-4-translations/fi.js',
                                 language: 'fi',
                             }}
                         />
