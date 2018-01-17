@@ -20,8 +20,8 @@ It is also possible to set the language url to a variable and change it as the u
     import React, { Component } from 'react';
     import PropTypes from 'prop-types';
     import { connect } from 'react-redux';
-    // Reactstrap: https://reactstrap.github.io/
     import { injectIntl, intlShape, FormattedMessage } from 'react-intl';
+    // Reactstrap: https://reactstrap.github.io/
     import { Button, Form, FormGroup, Label, Input, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
     import TinyMCE from 'react-tinymce';
  
@@ -45,7 +45,6 @@ It is also possible to set the language url to a variable and change it as the u
                     tinyMCELang: 'https://olli-suutari.github.io/tinyMCE-4-translations/en_GB.js',
                     tinyMCELocale: 'en_GB',
                 });
-                console.log("LANG STATE EN?: " + this.state.tinyMCELang)
             }
             else if(nextProps.intl.locale === 'fi')
             {
