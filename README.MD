@@ -59,7 +59,6 @@ It is also possible to set the language url to a variable and change it as the u
     render() {
         let langUrl = this.state.tinyMCELang;
         let locale = this.state.tinyMCELocale;
-        let filenameState = this.state.fileName;
         return (
     			...
                 <FormGroup>
